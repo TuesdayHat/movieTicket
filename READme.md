@@ -1,32 +1,27 @@
-# TITLE
+# **MOVIE TICKETS**
 
-#### _ SUBTITLE _
+Movie Theatre Show Times & Ticket Prices
 
 By **Ryan G Ferris**
 
 ## DESCRIPTION
 
-_DESCRIPTION_
+Program to display Movie Theatre ticket prices. The prices will vary depending on show times, and age of person purchasing the movie ticket.
 
 ## SPECS
 
 | Behavior | Input | Output |
 | :------------- | :------------- | :------------- |
-| Behavior_1 | Input_1 | Output_1 |
-| Behavior_2 | Input_2 | Output_2 |
-| Behavior_3 | Input_3 | Output_3 |
-| Behavior_4 | Input_4 | Output_4 |
-| Behavior_5 | Input_5 | Output_5 |
-| Behavior_6 | Input_6 | Output_6 |
-| Behavior_7 | Input_7 | Output_7 |
-| Behavior_8 | Input_8 | Output_8 |
-| Behavior_9 | Input_9 | Output_9 |
-| Behavior_10 | Input_10 | Output_10 |
+| Display Movie Titles | _User opens webpage._ | **movie:** ["Star Wars: The Last Jedi", "Thor: Ragnarok", "Blade Runner 2049", "Justice League"] |
+| Display Movie Show Times. | **movie:** "Star Wars: The Last Jedi" | **showtime:** ["7:00pm", "7:30pm", "10:30pm"] |
+| Display ticket prices. | **movie:** "Star Wars: The Last Jedi" | **price:** $12.00  |
+| Change ticket prices. | **movie:** "Star Wars: The Last Jedi", **price:** _$12.00_ | **movie:** "Star Wars: The Last Jedi", **price:** _$9.00_ |
+| Display items dynamically, depending on user selection.  | **movie:** "Star Wars: The Last Jedi", **showtime:** ["7:00pm"], **price:** $9.00 | **movie:** "Star Wars: The Last Jedi", **showtime:** ["7:30pm"], **price:** $12.00 |
 
 ## SETUP/INSTALLATION REQUIREMENTS
 
 * Download and install an up to date web browser
-* Click on the following [link](GitHub_Repository_Link) to use the PROGRAM_TITLE
+* Click on the following [link](https://github.com/ryanglenferris/movie-tickets.git) to use the Movie Tickets Program.
 
 ## KNOWN BUGS
 
@@ -40,9 +35,10 @@ _Email me at [ryanglenferris@gmail.com](mailto:ryanglenferris@gmail.com) if you 
 
 * _HTML_
 * _CSS_
+* _JavaScript_
+* _jQuery_
 * _Materialize_
 <!-- * _Bootstrap_ -->
-* _jQuery_
 * _Git_
 * _GitHub_
 
