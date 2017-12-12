@@ -3,15 +3,42 @@
 <head>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/css/materialize.min.css">
+  <link rel="stylesheet" href="css/styles.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="js/scripts.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title></title>
+  <title>Movie Tickets</title>
 </head>
 <body>
   <div class="container">
+    <div class="displayInitial">
 
+      <form class="form-group" id="userAge">
+        <div class="form-control ">
+          <label for="user-age">How old are you?</label>
+          <input type="number" name="user-age" value=69 id="ageInput">
+        </div>
 
+        <button class="btn waves-effect waves-light blue" type="submit" name="action">Submit
+          <i class="material-icons right">send</i>
+        </button>
+      </form>
+
+    </div>
+    <div class="row hideInitial">
+      <h1>MOVIES</h1>
+      <div class="col s4 m4 l4 xl4 hideInitial">
+          <div class="resultOutput">
+            <ul class="movieList">
+
+            </ul>
+          </div>
+      </div>
+      <div class="col s8 m8 l8 xl8 click-show">
+        <h2 id="movie-display-title" class=""></h2>
+        <p>Price(s): <br><span id="price" class="click-clear"></span></p>
+      </div>
+    </div>
   </div>
 </body>
 </html>

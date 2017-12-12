@@ -2,7 +2,7 @@
 
 Movie Theatre Show Times & Ticket Prices
 
-By **Ryan G Ferris**
+By **Ryan G Ferris and Adam Calhoun**
 
 ## DESCRIPTION
 
@@ -16,7 +16,7 @@ Program to display Movie Theatre ticket prices. The prices will vary depending o
 | Display Movie Show Times. | **movie:** "Star Wars: The Last Jedi" | **showtime:** ["7:00pm", "7:30pm", "10:30pm"] |
 | Display ticket prices. | **movie:** "Star Wars: The Last Jedi" | **price:** $12.00  |
 | Change ticket prices. | **movie:** "Star Wars: The Last Jedi", **price:** _$12.00_ | **movie:** "Star Wars: The Last Jedi", **price:** _$9.00_ |
-| Display items dynamically, depending on user selection.  | **movie:** "Star Wars: The Last Jedi", **showtime:** ["7:00pm"], **price:** $9.00 | **movie:** "Star Wars: The Last Jedi", **showtime:** ["7:30pm"], **price:** $12.00 |
+| Display items dynamically, depending on user selection.  | **movie:** "Star Wars: The Last Jedi", **showtime:** ["7:00pm"], **price:** $9.00 | **movie:** "Star Wars: The Last Jedi", **showtime:** ["7:30pm"], **price:** $12.00 |  
 
 ## SETUP/INSTALLATION REQUIREMENTS
 
@@ -44,7 +44,7 @@ _Email me at [ryanglenferris@gmail.com](mailto:ryanglenferris@gmail.com) if you 
 
 ### LICENSE
 
-Copyright (c) 2017 ****_Ryan G Ferris_****
+Copyright (c) 2017 ****_Ryan G Ferris, Adam Calhoun_****
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
